@@ -26,7 +26,7 @@ const items = [
               Collaboration with DeFi protocols to enable staking, lending, and yield farming.
               Seamless access to decentralized financial products through voice commands.
               Expanded features for power users, including advanced analytics and real-time insights.`,
-    status: "completed",  
+    status: "completed",
   },
   {
     title: "Phase 4",
@@ -42,51 +42,49 @@ Strengthen partnerships within the Solana ecosystem to enhance platform utility.
 export default function RoadMap() {
   return (
     <div className="bg-black/80">
-      <div className="w-10/12 m-auto py-10">
+      <div className="w-10/12  m-auto py-10">
         {/* Header */}
-        <div className="mb-10">
+        <div className="mb-10 m-auto">
           <h2 className="text-[40px] text-white font-bold">Road map</h2>
           <p className="text-[#666666]">Implementation plans</p>
         </div>
 
         {/* Roadmap Cards */}
-        <div className="flex justify-center items-center gap-4">
+        <div className="flex flex-col md:flex-row w-11/12 md:w-10/12 m-auto justify-center items-center gap-4 px-1">
           {items.map((item: any, index: number) => {
             return (
               <div
                 key={index}
-                className={`w-full sm:w-[288px] md:w-[320px] h-[400px] border ${
-                  item.status == "completed"
+                className={`min-w-[288px] md:w-[320px] h-[410px] snap-center border ${item.status == "completed"
                     ? "border-darkpink bg-darkpink/10"
                     : "border-green-600 bg-green-600/10"
-                } rounded-2xl p-6 flex flex-col items-center justify-between space-y-4 shadow-lg`}
+                  } rounded-2xl p-6 flex flex-col items-start space-y-4 shadow-lg`}
               >
                 {/* Status Icon */}
                 <div
-                  className={`rounded-full border ${
-                    item.status == "completed"
+                  className={`rounded-full border ${item.status == "completed"
                       ? "border-darkpink"
                       : "border-green-600"
-                  } h-[40px] w-[40px] flex justify-center items-center`}
+                    } min-h-[40px] min-w-[40px] flex justify-center items-center`}
                 >
                   <div
-                    className={`rounded-full ${
-                      item.status == "completed"
+                    className={`rounded-full ${item.status == "completed"
                         ? "bg-darkpink"
                         : "bg-green-600"
-                    } h-[15px] w-[15px]`}
+                      } h-[15px] w-[15px]`}
                   ></div>
                 </div>
-
                 {/* Content */}
-                <div className="text-center">
+                <div className="text-start ">
+                  <div className=" h-[100] mt-10">
                   <p className="text-[24px] font-bold text-white mb-2">
                     {item.title}
                   </p>
                   <p className="text-footergrey font-semibold text-[18px] mb-4">
                     {item.tag}
                   </p>
-                  <p className="text-[#666666] text-[16px] leading-relaxed">
+                  </div>
+                  <p className="text-[#666666] text-[16px] leading-tight">
                     {item.sub_title}
                   </p>
                 </div>

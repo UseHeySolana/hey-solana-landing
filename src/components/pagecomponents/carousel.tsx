@@ -34,9 +34,8 @@ export default function CarouselSegment() {
         {/* <div className="relative w-10/12 m-auto  flex flex-row justify-between items-center">
           <div className="bg-darkpink rounded-3xl p-2 text-white">
             <h2>Still your wallet but on steriods</h2>
-          </div>
-          <div className="bg-white/30 backdrop-blur-sm"></div>
-        </div> */}
+          </div> */}
+        <div className="bg-white/30 backdrop-blur-sm"></div>
 
         <div className="overflow-x-scroll md:w-10/12 m-auto py-10  relative ">
           <div className="flex flex-col md:flex-row gap-y-5 md:gap-x-5 p-2 relative  ">
