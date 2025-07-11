@@ -109,7 +109,7 @@ export default function Hero() {
   }, {});
   return (
     <>
-      <div className=" w-11/12 md:w-10/12 m-auto flex flex-col md:flex-row justify-center items-center">
+      <div className=" w-11/12 md:w-10/12 m-auto flex flex-col md:flex-row justify-center items-center py-10">
         <div className="flex  flex-col space-y-3 w-full items-center md:items-start ">
           <p className="text-white text-3xl md:text-6xl md:mb-4 font-bold">
             Your Voice, Your Wallet
