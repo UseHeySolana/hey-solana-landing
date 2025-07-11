@@ -109,12 +109,12 @@ export default function Hero() {
   }, {});
   return (
     <>
-      <div className="flex flex-col w-full md:w-full m-auto md:flex-row text-white items-center justify-center md:justify-start md:space-x-10  md:py-10 ">
-        <div className="flex flex-col space-y-3 w-full md:mr-32 md:ml-32 items-center md:items-start ">
-          <p className="text-white text-3xl md:text-6xl md:mb-4 font-extrabold">
+      <div className=" w-11/12 md:w-10/12 m-auto flex flex-col md:flex-row justify-center items-center">
+        <div className="flex  flex-col space-y-3 w-full items-center md:items-start ">
+          <p className="text-white text-3xl md:text-6xl md:mb-4 font-bold">
             Your Voice, Your Wallet
           </p>
-          <p className="text-white flex flex-col items-center md:items-start text-3xl md:text-6xl relative">
+          <p className="text-white flex flex-col items-center md:items-start text-3xl md:text-5xl relative">
             With HeySolana, It's <br />
             <span
               key={displayText}
@@ -130,17 +130,16 @@ export default function Hero() {
             className="py-5 md:mt-2 flex flex-row justify-center"
             target="blank"
           >
-            <button className="bg-gradient-to-b  w-[200px] flex flex-row items-center justify-center from-lightpink to-darkpink  border-2 border-lightpink/20 border-t-darkpink rounded-full bg-darkpink p-[10px] md:p-4 ">
+            <button className="bg-gradient-to-b  w-[200px] flex flex-row items-center justify-center from-lightpink to-darkpink  border-2 border-lightpink/20 border-t-darkpink rounded-full bg-darkpink p-[10px] md:p-4 text-xl text-white">
               Get Our App <ArrowOutward />
             </button>
           </a>
         </div>
 
-        <div className="hidden md:block">
+        <div className="hidden md:block ">
           <img src="/pngs/heroimage.png" alt="image" width={800} />
         </div>
       </div>
-
 
       <Partnership />
     </>

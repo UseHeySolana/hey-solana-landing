@@ -1,4 +1,5 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 const logos = [
   "/pngs/partnership/solana-foundation.png",
@@ -14,24 +15,27 @@ const Partnership = () => {
     <div className="w-full py-10">
       <div className="overflow-hidden relative group">
         {/* Marquee container */}
-        <div className="flex w-max animate-marquee group-hover:[animation-play-state:paused]">
+
+        {/* <div className="flex w-max animate-marquee group-hover:[animation-play-state:paused]"> */}
+        <Marquee
+          className="animate-marquee"
+          pauseOnHover
+          gradient={false}
+          speed={100}
+          autoFill
+          gradientWidth={100}
+        >
           {logos.map((logo, i) => (
             <img
               key={`main-${i}`}
               src={logo}
               alt={`Partner ${i}`}
-              className="h-8 mx-6 transition duration-300"
+              className="h-8 lg:h-12 mx-6 transition duration-300"
             />
           ))}
-          {logos.map((logo, i) => (
-            <img
-              key={`clone-${i}`}
-              src={logo}
-              alt={`Partner clone ${i}`}
-              className="h-8 mx-6 transition duration-300"
-            />
-          ))}
-        </div>
+        </Marquee>
+
+        {/* </div> */}
       </div>
 
       <style jsx>{`
