@@ -43,7 +43,7 @@ const Faqs = () => {
         <div className="flex flex-col md:space-y-4">
           <div className="font-daysans text-[32px]">FAQs</div>
 
-          <div className=" text-[16px] md:text-[32px] w-7/12 md:w-[300px]">
+          <div className=" text-[2vh] ">
             Find your answers here
           </div>
 
