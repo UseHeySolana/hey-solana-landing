@@ -22,21 +22,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "Hey Solana",
-              url: "https://heysolana.yraylabs.fun",
-              description: "Hey Solana is an AI Voice Powered Wallet for DeFi and all transactions.",
+              name: "Orova",
+              url: "https://heyorova.com",
+              description: "Orova is an AI Voice Powered Wallet for DeFi and all transactions.",
               potentialAction: {
                 "@type": "SearchAction",
-                target: "https://heysolana.yraylabs.fun/search?q={search_term_string}",
+                target: "https://heyorova.com/search?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),
           }}
         />
-        <title>Hey Solana - AI Voice Powered Wallet</title>
+        <title>Orova - AI Voice Powered Wallet</title>
         <meta
           name="description"
-          content="Hey Solana is an AI Voice Powered Wallet that you can use for DeFi and all transactions. Secure, fast, and user-friendly crypto wallet."
+          content="Orova is an AI Voice Powered Wallet that you can use for DeFi and all transactions. Secure, fast, and user-friendly crypto wallet."
         />
       </head>
       <body

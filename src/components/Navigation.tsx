@@ -12,7 +12,7 @@ export default function Navigation() {
           />
         </a>
         <h1 className="hidden md:block text-lg font-medium text-white">
-          HeySolana
+          Orova
         </h1>
       </div>
 

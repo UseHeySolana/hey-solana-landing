@@ -115,7 +115,7 @@ export default function Hero() {
             Your Voice, Your Wallet
           </p>
           <p className="text-white flex flex-col items-center md:items-start text-3xl md:text-5xl relative">
-            With HeySolana, It's <br />
+            With Orova, It's <br />
             <span
               key={displayText}
               className="text-darkpink inline-block w-[12ch] text-center md:text-start transition-opacity duration-500 ease-in-out opacity-100"
@@ -126,9 +126,8 @@ export default function Hero() {
           </p>
 
           <a
-            href="https://play.google.com/store/apps/details?id=com.maskyray.heysolana"
+            href="/download"
             className="py-5 md:mt-2 flex flex-row justify-center"
-            target="blank"
           >
             <button className="bg-gradient-to-b  w-[200px] flex flex-row items-center justify-center from-lightpink to-darkpink  border-2 border-lightpink/20 border-t-darkpink rounded-full bg-darkpink p-[10px] md:p-4 text-xl text-white">
               Get Our App <ArrowOutward />

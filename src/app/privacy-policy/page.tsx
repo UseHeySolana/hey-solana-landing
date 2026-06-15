@@ -13,9 +13,9 @@ export default function PrivacyPolicy() {
   return (
     <>
       <HeadSEO
-        title="Privacy Policy - Hey Solana"
-        description="Learn how Hey Solana, an AI Voice Powered Wallet, collects, uses, and protects your personal information for DeFi and crypto transactions."
-        keywords="Hey Solana, privacy policy, AI wallet, DeFi, crypto transactions, data protection"
+        title="Privacy Policy - Orova"
+        description="Learn how Orova, an AI Voice Powered Wallet, collects, uses, and protects your personal information for DeFi and crypto transactions."
+        keywords="Orova, privacy policy, AI wallet, DeFi, crypto transactions, data protection"
         pathname="/privacy-policy"
       />
       <div className="max-w-4xl mx-auto px-4 py-12 text-gray-400 bg-black">
@@ -28,19 +28,19 @@ export default function PrivacyPolicy() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebPage",
-              name: "Privacy Policy - Hey Solana",
-              url: "https://heysolana.yraylabs.fun/privacy-policy",
+              name: "Privacy Policy - Orova",
+              url: "https://heyorova.com/privacy-policy",
               description:
-                "Learn how Hey Solana, an AI Voice Powered Wallet, collects, uses, and protects your personal information for DeFi and crypto transactions.",
+                "Learn how Orova, an AI Voice Powered Wallet, collects, uses, and protects your personal information for DeFi and crypto transactions.",
             }),
           }}
         />
 
         <Section title="1. Introduction">
           <p>
-            Welcome to <strong>Hey Solana</strong> ("we", "our", or "us"). We are committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you use our AI Voice Powered Wallet services, accessible via our website at{" "}
-            <a href="https://heysolana.yraylabs.fun" className="text-blue-400 hover:underline">
-              heysolana.yraylabs.fun
+            Welcome to <strong>Orova</strong> ("we", "our", or "us"). We are committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you use our AI Voice Powered Wallet services, accessible via our website at{" "}
+            <a href="https://heyorova.com" className="text-blue-400 hover:underline">
+              heyorova.com
             </a>{" "}
             or through our mobile applications.
           </p>
@@ -104,8 +104,8 @@ export default function PrivacyPolicy() {
           </ul>
           <p className="mt-2">
             To exercise these rights, please contact us at{" "}
-            <a href="mailto:heysolana4@gmail.com" className="text-blue-400 hover:underline">
-              heysolana4@gmail.com
+            <a href="mailto:orova4@gmail.com" className="text-blue-400 hover:underline">
+              orova4@gmail.com
             </a>.
           </p>
         </Section>
@@ -125,8 +125,8 @@ export default function PrivacyPolicy() {
         <Section title="8. Children’s Privacy">
           <p>
             Our services are not intended for individuals under the age of 13. We do not knowingly collect personal data from children under 13. If you believe we have inadvertently collected such information, please contact us at{" "}
-            <a href="mailto:heysolana4@gmail.com" className="text-blue-400 hover:underline">
-              heysolana4@gmail.com
+            <a href="mailto:orova4@gmail.com" className="text-blue-400 hover:underline">
+              orova4@gmail.com
             </a>{" "}
             so we can promptly delete it.
           </p>
@@ -143,12 +143,12 @@ export default function PrivacyPolicy() {
           <ul className="list-none mt-2 space-y-1">
             <li>
               <strong>Email</strong>:{" "}
-              <a href="mailto:heysolana4@gmail.com" className="text-blue-400 hover:underline">
-                heysolana4@gmail.com
+              <a href="mailto:orova4@gmail.com" className="text-blue-400 hover:underline">
+                orova4@gmail.com
               </a>
             </li>
             <li>
-              <strong>Company Name</strong>: Hey Solana
+              <strong>Company Name</strong>: Orova
             </li>
             <li>
               <strong>Address</strong>: 123 Blockchain Avenue, Crypto City, CA 90210, USA

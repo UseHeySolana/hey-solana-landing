@@ -17,20 +17,20 @@ import { useState } from "react";
 
 export const landingfaqs = [
   {
-    title: "What's HeySolana?",
-    text: "HeySolana is an AI-driven voice assistant designed to enhance transactions on the Solana blockchain through hands-free interactions. It simplifies decentralized finance (DeFi) activities by allowing users to perform transactions, analyze portfolios, and receive real-time market insights using voice commands.",
+    title: "What's Orova?",
+    text: "Orova is an AI-driven voice assistant designed to enhance transactions on the Solana blockchain through hands-free interactions. It simplifies decentralized finance (DeFi) activities by allowing users to perform transactions, analyze portfolios, and receive real-time market insights using voice commands.",
   },
   {
-    title: "How does HeySolana work?",
-    text: "HeySolana utilizes Progressive Web App (PWA) technology combined with advanced natural language processing (NLP) to facilitate seamless interactions. Users can issue voice commands to perform various tasks such as swapping tokens, scheduling transactions, and receiving personalized financial recommendations.",
+    title: "How does Orova work?",
+    text: "Orova utilizes Progressive Web App (PWA) technology combined with advanced natural language processing (NLP) to facilitate seamless interactions. Users can issue voice commands to perform various tasks such as swapping tokens, scheduling transactions, and receiving personalized financial recommendations.",
   },
   {
-    title: "What technology powers HeySolana?",
-    text: "HeySolana is built on the Solana blockchain, which provides ultra-fast and low-cost transactions. It employs state-of-the-art NLP for voice recognition and end-to-end encryption to ensure user data and transaction security.",
+    title: "What technology powers Orova?",
+    text: "Orova is built on the Solana blockchain, which provides ultra-fast and low-cost transactions. It employs state-of-the-art NLP for voice recognition and end-to-end encryption to ensure user data and transaction security.",
   },
   {
-    title: "How does HeySolana enhance user experience in DeFi?",
-    text: "By integrating AI-powered voice assistance, HeySolana simplifies complex DeFi operations, making it easier for users to engage with staking, lending, and yield farming through intuitive voice commands. This democratizes access to financial tools for users without technical backgrounds.",
+    title: "How does Orova enhance user experience in DeFi?",
+    text: "By integrating AI-powered voice assistance, Orova simplifies complex DeFi operations, making it easier for users to engage with staking, lending, and yield farming through intuitive voice commands. This democratizes access to financial tools for users without technical backgrounds.",
   },
 ];
 const Faqs = () => {
