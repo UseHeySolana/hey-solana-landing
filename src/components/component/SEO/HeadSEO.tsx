@@ -7,7 +7,7 @@ interface HeadSEOProps {
   }
   
   export default function HeadSEO({ title, description, keywords, image, pathname }: HeadSEOProps) {
-    const siteUrl = "https://heysolana.yraylabs.fun";
+    const siteUrl = "https://heyorova.com";
     const canonicalUrl = `${siteUrl}${pathname}`;
   
     return (

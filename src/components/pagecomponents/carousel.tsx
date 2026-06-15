@@ -17,12 +17,12 @@ const carouselItems = [
     color: "#FCFFC3",
   },
   {
-    item: "Get market insights, just start with “Hey Solana”",
+    item: "Get market insights, just start with “Orova”",
     image: "/pngs/carousel1.png",
     color: "#B6B9FF",
   },
   {
-    item: "Get market insights, just start with “Hey Solana”",
+    item: "Get market insights, just start with “Orova”",
     image: "/pngs/carousel/swap.png",
     color: "#D8D8D8",
   },

@@ -6,14 +6,14 @@ import { ArrowOutward } from "@mui/icons-material";
 export default function Contact() {
   return (
     <div className="bg-[url('/pngs/contactbg.png')] w-full max-w-[856px] h-auto bg-cover flex flex-col text-white p-6 sm:p-8 md:p-10 border-none rounded-[28px] gap-4">
-      <h1 className="text-2xl sm:text-3xl font-extrabold">Build with HeySolana</h1>
+      <h1 className="text-2xl sm:text-3xl font-extrabold">Build with Orova</h1>
       <p className="text-base sm:text-lg">
         Integrate your Web3 solution and go voice-first.
       </p>
       <p className="text-sm sm:text-base text-gray-400">
         Join the growing ecosystem of developers bringing seamless, AI-powered
         voice access to their dApps. Book a call to explore how your product can
-        live inside HeySolana’s assistant and reach users in an entirely new
+        live inside Orova’s assistant and reach users in an entirely new
         way.
       </p>
 

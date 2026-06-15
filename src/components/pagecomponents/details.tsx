@@ -17,13 +17,13 @@ const carouselItems = [
     color: "#FCFFC3",
   },
   {
-    item: "Get market insights, just start with “Hey Solana”",
+    item: "Get market insights, just start with “Orova”",
     image: "/pngs/audiowave.png",
 
     color: "#B6B9FF",
   },
   {
-    item: "Get market insights, just start with “Hey Solana”",
+    item: "Get market insights, just start with “Orova”",
     image: "/pngs/audiowave.png",
 
     color: "#D8D8D8",
@@ -35,17 +35,17 @@ export default function DetailsSegment() {
       <div className="bg-lightpink relative overflow-hidden rounded-t-[64px]">
         <div className="flex flex-col md:flex-row relative overflow-hidden">
           <div className="text-black p-10 md:p-20 w-screen bg-black/10 md:bg-transparent z-50 md:z-0  m-auto  md:m-0 md:w-[607px]">
-            <h2 className="text-[32px] md:text-[64px] font-bold">Hey Solana</h2>
+            <h2 className="text-[32px] md:text-[64px] font-bold">Orova</h2>
             <p className="text-[20px] md:text-[32px] font-[400]">
               Your AI-Powered Voice Wallet for Smarter Transactions
             </p>
             <p className="text-[16px] md:text-[18px] text-justify">
-              Hey Solana is an AI-driven Solana wallet that listens and acts.
+              Orova is an AI-driven Solana wallet that listens and acts.
               Manage your crypto hands-free with intuitive voice commands—send,
               receive, trade, and explore market insights. With built-in AI, you
               can analyze transactions before they’re executed for smarter
               decisions. Set permissions to let the AI help you hedge funds,
-              optimize investments, and keep your assets safe. Hey Solana
+              optimize investments, and keep your assets safe. Orova
               combines speed, security, and intelligence in one seamless
               experience.
             </p>

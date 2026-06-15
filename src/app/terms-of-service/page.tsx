@@ -8,7 +8,7 @@ export default function TermsOfService() {
 
         <Section title="1. Acceptance of Terms">
           <p>
-            By accessing or using <strong>HeySolana</strong>, you confirm that
+            By accessing or using <strong>Orova</strong>, you confirm that
             you have read, understood, and agree to these Terms. If you do not
             agree, please do not use our Services.
           </p>
@@ -16,7 +16,7 @@ export default function TermsOfService() {
 
         <Section title="2. Eligibility">
           <p>
-            You must be at least 13 years old to use HeySolana. If you are using
+            You must be at least 13 years old to use Orova. If you are using
             the Services on behalf of another person or entity, you must have
             the authority to accept these Terms on their behalf.
           </p>
@@ -26,7 +26,7 @@ export default function TermsOfService() {
           <ul className="list-disc pl-5 space-y-2">
             <li>Comply with all laws and regulations</li>
             <li>
-              Do not use HeySolana for any unlawful, abusive, or harmful
+              Do not use Orova for any unlawful, abusive, or harmful
               purposes
             </li>
             <li>No use of bots or automation unless authorized</li>
@@ -36,7 +36,7 @@ export default function TermsOfService() {
 
         <Section title="4. Accounts and Access">
           <p>
-            Some features of HeySolana may require an account. You are
+            Some features of Orova may require an account. You are
             responsible for securing your account credentials and agree not to
             impersonate anyone or provide false information.
           </p>
@@ -44,7 +44,7 @@ export default function TermsOfService() {
 
         <Section title="5. Intellectual Property">
           <p>
-            All content and software provided by HeySolana—including voice
+            All content and software provided by Orova—including voice
             models, UI components, branding, and code—is owned or licensed by
             us. You may not reproduce or redistribute our Services without
             permission.
@@ -53,7 +53,7 @@ export default function TermsOfService() {
 
         <Section title="6. User Content">
           <p>
-            If you submit or transmit content through HeySolana, you grant us a
+            If you submit or transmit content through Orova, you grant us a
             worldwide, non-exclusive, royalty-free license to use, reproduce,
             and display that content solely to operate and improve our Services.
           </p>
@@ -61,7 +61,7 @@ export default function TermsOfService() {
 
         <Section title="7. Third-Party Services">
           <p>
-            HeySolana may integrate with third-party services. We are not
+            Orova may integrate with third-party services. We are not
             responsible for the actions, content, or policies of these
             third-party services.
           </p>
@@ -69,7 +69,7 @@ export default function TermsOfService() {
 
         <Section title="8. Termination">
           <p>
-            We may suspend or terminate your access to HeySolana at any time if
+            We may suspend or terminate your access to Orova at any time if
             we believe you are violating these Terms or harming the platform’s
             integrity.
           </p>
@@ -77,7 +77,7 @@ export default function TermsOfService() {
 
         <Section title="9. Disclaimer of Warranties">
           <p>
-            HeySolana is provided “as is” and “as available.” We make no
+            Orova is provided “as is” and “as available.” We make no
             warranties, express or implied, about reliability, accuracy, or
             availability of the Services.
           </p>
@@ -85,7 +85,7 @@ export default function TermsOfService() {
 
         <Section title="10. Limitation of Liability">
           <p>
-            To the fullest extent permitted by law, HeySolana and its affiliates
+            To the fullest extent permitted by law, Orova and its affiliates
             are not liable for any indirect, incidental, or consequential
             damages resulting from your use of or inability to use the Services.
           </p>
@@ -111,7 +111,7 @@ export default function TermsOfService() {
                 <p>If you have questions about these Terms, contact us at:</p>
                 <ul className="mt-2 space-y-1">
                     <li>Email: [Insert Contact Email]</li>
-                    <li>Company Name: HeySolana</li>
+                    <li>Company Name: Orova</li>
                     <li>Address: [Insert Address]</li>
                 </ul>
             </Section> */}
